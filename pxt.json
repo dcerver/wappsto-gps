@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-wappsto": "github:wappsto/pxt-wappsto#v1.1.1"
+        "pxt-wappsto": "github:wappsto/pxt-wappsto#v1.1.1",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.2.1"
     },
     "files": [
         "main.blocks",
