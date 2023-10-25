@@ -7,7 +7,7 @@ wappsto.configureName("GPS Microbit")
 wappsto.configureValue(1, "Longitude", WappstoValueTemplate.Longitude)
 wappsto.configureValue(2, "Latitude", WappstoValueTemplate.Latitude)
 wappsto.configureValue(3, "Temperature", WappstoValueTemplate.Temperature)
-wappsto.configureValue(4, "Lightlevel", WappstoValueTemplate.Number)
+wappsto.configureValue(4, "Lightlevel", WappstoValueTemplate.Light)
 while (!(wappsto.connected())) {
     basic.showIcon(IconNames.No)
 }
