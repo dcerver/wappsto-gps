@@ -3,6 +3,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(wappsto.latitude())
     basic.pause(100)
 })
+wappsto.configureApn("iot.1nce.net")
 wappsto.configureName("GPS Microbit")
 wappsto.configureValue(1, "Longitude", WappstoValueTemplate.Longitude)
 wappsto.configureValue(2, "Latitude", WappstoValueTemplate.Latitude)
